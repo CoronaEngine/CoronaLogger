@@ -1,15 +1,54 @@
-CMakeLists.txt.user
+# CMake build tree
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/out-*/
+
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
+CMakeFiles/
+CMakeScripts/
+Testing/
 Makefile
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
 CMakeUserPresets.json
+_deps/
+*.ninja
+*.ninja_deps
+*.ninja_log
+build.ninja
+
+# Generator-specific output directories
+/Debug/
+/Release/
+/RelWithDebInfo/
+/MinSizeRel/
+
+# IDE metadata
+.vscode/
+.idea/
+*.code-workspace
+CMakeLists.txt.user
+*.user
+*.suo
+*.userosscache
+*.VC.db
+*.VC.opendb
+/.vs/
+/.cache/
+
+# Visual Studio project files (generated)
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# Logs & runtime artifacts
+/logs/
+*.log
 
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
